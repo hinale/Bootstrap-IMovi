@@ -177,7 +177,7 @@
   cursor: pointer;
 }
 
-#featured-images .col-md-4:hover > .banner-content {
+#featured-images .banner-content:hover {
   opacity: 0.8;
 }
 
