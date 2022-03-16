@@ -218,11 +218,9 @@
 
 /* INFO */
 #info-bg {
-  height: 28em;
+  height: 50em;
   margin-bottom: 10%;
   padding: 10px;
-  display: flex;
-  flex-direction: row;
   justify-content: center;
   align-items: center;
 }
@@ -251,6 +249,12 @@ font-size: 3em;
 }
 
 @media(min-width: 768px) {
+  #info-bg {
+  display: flex;
+  flex-direction: row;
+  height: 28em;
+  }
+  
   #info-content {
     padding: 3.5em;
   }
